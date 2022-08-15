@@ -1,0 +1,40 @@
+@import url('http://fonts.cdnfonts.com/css/galiver-sans');
+
+@font-face {
+    font-family: minecraft;
+    src: url('images/minecraft_font.ttf') format('truetype');
+}
+body {
+    background-image: url(images/grass.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  #input {
+    height: 650px;
+    border: none;
+    background-color: rgba(255,251,239,255);
+    color: black;
+    resize: none;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 55%;
+    /* font-smooth: never; */
+  }
+
+  #book {
+    width: 1000px;
+  }
+
+
+ 
+  
