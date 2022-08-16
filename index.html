@@ -6,20 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note++</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="init-firebase.js"></script>
     <script src="script.js" defer></script>
+    <script src="button.js" defer></script>
 </head>
 <body>
     <div class="container">
         <img id="book" src="images/download.png">
-        <!-- <img id="og" src="images/arrow-back.png">
+        <!-- <img id
+="og" src="images/arrow-back.png">
         <img id="red" src="images/red_arrow.png"> -->
+
+        <p id="noteContainer">
+
+        </p>
+        <p id="PageN">g</p>
         <textarea id="input" type="text"></textarea>
+
         <!-- <div id="buttons">
             <button id="nextButton"><img src="images/red_arrow.png" alt=""></button> 
             <button id="previousButton"><img src="images/arrow-back.png" alt=""></button> 
           </div> -->
+          <img id="ogB" src="images/flippedog.png">
           <img id="og" src="images/arrow-back.png">
     </div>
+    <!-- <button type="button" class="button">
+        <span class="button__text">Bold Text</span>
+        <span class="button__icon">
+            <ion-icon name="text-outline"></ion-icon>
+        </span>
+    </button> -->
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
