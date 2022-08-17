@@ -2,7 +2,7 @@
 
 const database=firebase.database().ref();
 
-
+let saveButton = document.getElementById("button")
 let nextButton = document.getElementById("nextButton");
 let previousButton = document.getElementById("previousButton");
 let arrowtrans = document.getElementById("og");
@@ -62,6 +62,7 @@ arrowtrans.onmouseout = function() {
     arrowtrans.src='images/arrow-back.png';
 }
 
+/*
 notesInput.addEventListener("keyup", (event) =>{
     event.preventDefault()
         if (event.key=="Enter"){
@@ -70,6 +71,13 @@ notesInput.addEventListener("keyup", (event) =>{
             
         }
 });
+*/
+
+saveButton.onclick=function(){
+    event.preventDefault()
+    console.log("Key Pressed!")
+    updateDB()
+}
 
 function updateDB(event){
     //prevents page from refreshing

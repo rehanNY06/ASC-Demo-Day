@@ -20,7 +20,7 @@ body {
   }
   
   #input {
-    height: 650px;
+    height: 600px;
     border: none;
     background-color: transparent;
     color: black;
@@ -28,8 +28,8 @@ body {
     font-size: 20px;
     font-family: 'minecraft';
     position: absolute;
-    top: 17%;
-    left: 20%;
+    top: 16%;
+    left: 25%;
     width: 47%;
     /* font-smooth: never; */
     outline: none;
@@ -58,28 +58,29 @@ body {
   bottom: 325px;
 }
 
-/* .button {
+ #button {
   display: inline-flex;
   height: 50px;
-  padding: 0;
+  padding: 10px;
   background: white;
   border: none;
   outline: none;
   border-radius: 5px;
   overflow: hidden;
   font-family: 'Minecraft';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  opacity: 50%;
+  opacity: 100%;
+  border-radius: 15px;
 }
 
-.button:hover {
-  background-color: green;
+#button:hover {
+  background-color: grey;
 }
 
-.button:active {
-  background: #006e58;
+#button:active {
+  background: grey;
 }
 
 .button__text 
