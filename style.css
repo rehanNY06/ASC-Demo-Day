@@ -110,3 +110,103 @@ body {
   bottom: 955px;
   font-size: 25px;
 }
+
+#button2 {
+  display: inline-flex;
+  height: 50px;
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Minecraft';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 100%;
+  border-radius: 15px;
+}
+
+#button2:hover {
+  background-color: grey;
+}
+
+#button2:active {
+  background: grey;
+}
+
+#button3 {
+  display: inline-flex;
+  height: 50px;
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Minecraft';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 100%;
+  border-radius: 15px;
+}
+
+#button3:hover {
+  background-color: grey;
+}
+
+#button3:active {
+  background: grey;
+}
+
+#button4 {
+  display: inline-flex;
+  height: 50px;
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Minecraft';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 100%;
+  border-radius: 15px;
+}
+
+#button4:hover {
+  background-color: grey;
+}
+
+#button4:active {
+  background: grey;
+}
+
+#button5 {
+  display: inline-flex;
+  height: 50px;
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Minecraft';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 100%;
+  border-radius: 15px;
+}
+
+#button5:hover {
+  background-color: grey;
+}
+
+#button5:active {
+  background: grey;
+}

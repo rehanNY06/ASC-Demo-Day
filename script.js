@@ -62,16 +62,6 @@ arrowtrans.onmouseout = function() {
     arrowtrans.src='images/arrow-back.png';
 }
 
-/*
-notesInput.addEventListener("keyup", (event) =>{
-    event.preventDefault()
-        if (event.key=="Enter"){
-            console.log("Key Pressed!")
-            updateDB()
-            
-        }
-});
-*/
 
 saveButton.onclick=function(){
     event.preventDefault()
